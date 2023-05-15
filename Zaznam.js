@@ -21,8 +21,7 @@ class Zaznam {
      * @returns Výpis parametrů ve formátu: jmeno, prijmeni, telefon, vek.
      */
     toString() {
-        //do konzole? nebo do webu?
         let zaznamString = `${this.jmeno}, ${this.prijmeni}, ${this.telefon}, ${this.vek}.`;
-        return zaznamString; //nechat jen zde
+        return zaznamString;
     }
 }
